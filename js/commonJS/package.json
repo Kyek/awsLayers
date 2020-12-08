@@ -4,7 +4,8 @@
   "description": "Common dependencies that I use in AWS Lambdas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r commons.zip nodejs"
   },
   "author": "Paris Mendoza",
   "license": "ISC",
