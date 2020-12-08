@@ -1,0 +1,11 @@
+{
+  "name": "common-js-layer",
+  "version": "1.0.0",
+  "description": "Common dependencies that I use in AWS Lambdas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
